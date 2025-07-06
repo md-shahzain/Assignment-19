@@ -42,13 +42,12 @@
 
 // Problem no 4 
 
-// var number = prompt("Enter a number for multiplication table", 5);
+// let number = prompt("Enter a number for multiplication table:" , 5);
+// document.write("<h3>Multiplication Table of " + number + "</h3>");
 
-// document.write("<h3>Table of"+ number +"</h3>")
-// for(var i = 1 ; i <= 10 ; i++){
-//     document.write(number + " x " + i + "=" + (number * i) + "</br>");
-// }
-
+// for( let i = 1; i <= 10; i++ ){
+//     document.write(number + "x" + i + "=" + (number * i) + "<br>")
+// };
 
 // Problem no 4 
 
@@ -75,3 +74,5 @@
 // document.write("<tr><th colspan='2'>Total</th><th>" + totalObtained + "</th></tr>");
 // document.write("</table>");
 // document.write("<br>Percentage: " + percentage + "%");
+
+
